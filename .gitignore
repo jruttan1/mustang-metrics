@@ -1,0 +1,50 @@
+# ------------------------
+# macOS System Files
+# ------------------------
+.DS_Store
+
+# ------------------------
+# Python (Backend)
+# ------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.env              # Store API keys securely, don't commit
+db.sqlite3        # If you use a local SQLite DB for development
+
+# ------------------------
+# SwiftUI / Xcode (Frontend)
+# ------------------------
+# Xcode build artifacts and temporary files
+Frontend/DerivedData/
+Frontend/*.xcarchive
+Frontend/*.ipa
+
+# Workspace and user settings
+Frontend/*.xcworkspace/
+Frontend/Mustang\ Metrics.xcworkspace/
+Frontend/Mustang\ Metrics.xcodeproj/project.xcworkspace/
+Frontend/Mustang\ Metrics.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+Frontend/.swiftpm/
+Frontend/Package.resolved
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock
+
+# ------------------------
+# IDE / Editor
+# ------------------------
+.vscode/
+.idea/
+
+# ------------------------
+# Misc
+# ------------------------
+*.swp
+*.tmp
+Thumbs.db

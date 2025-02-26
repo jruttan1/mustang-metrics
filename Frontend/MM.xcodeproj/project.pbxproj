@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		044EB6CA2D6EC98500165C08 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6C62D6EC98500165C08 /* HomepageView.swift */; };
+		044EB6CB2D6EC98500165C08 /* MainMetricsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6C72D6EC98500165C08 /* MainMetricsCard.swift */; };
+		044EB6CC2D6EC98500165C08 /* MetricsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6C82D6EC98500165C08 /* MetricsCard.swift */; };
+		044EB6CD2D6EC98500165C08 /* GymStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6C52D6EC98500165C08 /* GymStatusView.swift */; };
+		044EB6DF2D6EC9AF00165C08 /* Mustang_MetricsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6DA2D6EC9AF00165C08 /* Mustang_MetricsApp.swift */; };
+		044EB6E02D6EC9AF00165C08 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6D92D6EC9AF00165C08 /* Item.swift */; };
+		044EB6E12D6EC9AF00165C08 /* GymMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6D32D6EC9AF00165C08 /* GymMetrics.swift */; };
+		044EB6E22D6EC9AF00165C08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6D82D6EC9AF00165C08 /* ContentView.swift */; };
+		044EB6E32D6EC9AF00165C08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044EB6D52D6EC9AF00165C08 /* Preview Assets.xcassets */; };
+		044EB6E42D6EC9AF00165C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044EB6D72D6EC9AF00165C08 /* Assets.xcassets */; };
+		044EB6E62D6ECFB800165C08 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EB6E52D6ECFB300165C08 /* Assets.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		044D5E842D645C3E00703033 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +41,26 @@
 		044D5E712D645C3D00703033 /* Mustang Metrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mustang Metrics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044D5E832D645C3E00703033 /* Mustang MetricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mustang MetricsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044D5E8D2D645C3E00703033 /* Mustang MetricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mustang MetricsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044EB6C52D6EC98500165C08 /* GymStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymStatusView.swift; sourceTree = "<group>"; };
+		044EB6C62D6EC98500165C08 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		044EB6C72D6EC98500165C08 /* MainMetricsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMetricsCard.swift; sourceTree = "<group>"; };
+		044EB6C82D6EC98500165C08 /* MetricsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsCard.swift; sourceTree = "<group>"; };
+		044EB6CE2D6EC9A400165C08 /* Mustang_MetricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mustang_MetricsUITests.swift; sourceTree = "<group>"; };
+		044EB6CF2D6EC9A400165C08 /* Mustang_MetricsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mustang_MetricsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044EB6D32D6EC9AF00165C08 /* GymMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymMetrics.swift; sourceTree = "<group>"; };
+		044EB6D52D6EC9AF00165C08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044EB6D72D6EC9AF00165C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044EB6D82D6EC9AF00165C08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		044EB6D92D6EC9AF00165C08 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		044EB6DA2D6EC9AF00165C08 /* Mustang_MetricsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mustang_MetricsApp.swift; sourceTree = "<group>"; };
+		044EB6DC2D6EC9AF00165C08 /* Mustang_MetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mustang_MetricsTests.swift; sourceTree = "<group>"; };
+		044EB6E52D6ECFB300165C08 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		044D5E732D645C3D00703033 /* Mustang Metrics */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Mustang Metrics";
-			sourceTree = "<group>";
-		};
-		044D5E862D645C3E00703033 /* Mustang MetricsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Mustang MetricsTests";
-			sourceTree = "<group>";
-		};
-		044D5E902D645C3E00703033 /* Mustang MetricsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Mustang MetricsUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +93,13 @@
 		044D5E682D645C3D00703033 = {
 			isa = PBXGroup;
 			children = (
+				044EB6C92D6EC98500165C08 /* Views */,
 				044D5E732D645C3D00703033 /* Mustang Metrics */,
-				044D5E862D645C3E00703033 /* Mustang MetricsTests */,
-				044D5E902D645C3E00703033 /* Mustang MetricsUITests */,
 				044D5E722D645C3D00703033 /* Products */,
+				044EB6D02D6EC9A400165C08 /* UITests */,
+				044EB6D42D6EC9AF00165C08 /* Models */,
+				044EB6DB2D6EC9AF00165C08 /* Mustang Metrics */,
+				044EB6DD2D6EC9AF00165C08 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +111,63 @@
 				044D5E8D2D645C3E00703033 /* Mustang MetricsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		044EB6C92D6EC98500165C08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				044EB6C52D6EC98500165C08 /* GymStatusView.swift */,
+				044EB6C62D6EC98500165C08 /* HomepageView.swift */,
+				044EB6C72D6EC98500165C08 /* MainMetricsCard.swift */,
+				044EB6C82D6EC98500165C08 /* MetricsCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		044EB6D02D6EC9A400165C08 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				044EB6CE2D6EC9A400165C08 /* Mustang_MetricsUITests.swift */,
+				044EB6CF2D6EC9A400165C08 /* Mustang_MetricsUITestsLaunchTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		044EB6D42D6EC9AF00165C08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				044EB6D32D6EC9AF00165C08 /* GymMetrics.swift */,
+				044EB6E52D6ECFB300165C08 /* Assets.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		044EB6D62D6EC9AF00165C08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				044EB6D52D6EC9AF00165C08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		044EB6DB2D6EC9AF00165C08 /* Mustang Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				044EB6D62D6EC9AF00165C08 /* Preview Content */,
+				044EB6D72D6EC9AF00165C08 /* Assets.xcassets */,
+				044EB6D82D6EC9AF00165C08 /* ContentView.swift */,
+				044EB6D92D6EC9AF00165C08 /* Item.swift */,
+				044EB6DA2D6EC9AF00165C08 /* Mustang_MetricsApp.swift */,
+			);
+			path = "Mustang Metrics";
+			sourceTree = "<group>";
+		};
+		044EB6DD2D6EC9AF00165C08 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				044EB6DC2D6EC9AF00165C08 /* Mustang_MetricsTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +208,6 @@
 			dependencies = (
 				044D5E852D645C3E00703033 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				044D5E862D645C3E00703033 /* Mustang MetricsTests */,
-			);
 			name = "Mustang MetricsTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +227,6 @@
 			);
 			dependencies = (
 				044D5E8F2D645C3E00703033 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				044D5E902D645C3E00703033 /* Mustang MetricsUITests */,
 			);
 			name = "Mustang MetricsUITests";
 			packageProductDependencies = (
@@ -186,7 +258,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 044D5E6C2D645C3D00703033 /* Build configuration list for PBXProject "Mustang Metrics" */;
+			buildConfigurationList = 044D5E6C2D645C3D00703033 /* Build configuration list for PBXProject "MM" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -212,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044EB6E32D6EC9AF00165C08 /* Preview Assets.xcassets in Resources */,
+				044EB6E42D6EC9AF00165C08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044EB6E62D6ECFB800165C08 /* Assets.swift in Sources */,
+				044EB6DF2D6EC9AF00165C08 /* Mustang_MetricsApp.swift in Sources */,
+				044EB6E02D6EC9AF00165C08 /* Item.swift in Sources */,
+				044EB6E12D6EC9AF00165C08 /* GymMetrics.swift in Sources */,
+				044EB6E22D6EC9AF00165C08 /* ContentView.swift in Sources */,
+				044EB6CA2D6EC98500165C08 /* HomepageView.swift in Sources */,
+				044EB6CB2D6EC98500165C08 /* MainMetricsCard.swift in Sources */,
+				044EB6CC2D6EC98500165C08 /* MetricsCard.swift in Sources */,
+				044EB6CD2D6EC98500165C08 /* GymStatusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		044D5E6C2D645C3D00703033 /* Build configuration list for PBXProject "Mustang Metrics" */ = {
+		044D5E6C2D645C3D00703033 /* Build configuration list for PBXProject "MM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044D5E952D645C3E00703033 /* Debug */,

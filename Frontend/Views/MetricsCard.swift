@@ -9,12 +9,13 @@ struct MetricsCard: View {
             Text(title)
                 .font(.system(size: 16, weight: .medium))
                 .foregroundColor(.white)
-
+                .frame(maxWidth: .infinity, alignment: .leading)
+            
             Text("\(value)")
                 .font(.system(size: 30, weight: .bold))
                 .foregroundColor(.white)
+                .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .frame(maxWidth: .infinity)
         .padding()
         .background(Color(.init(red: 0.21, green: 0.21, blue: 0.21)))
         .cornerRadius(12)
